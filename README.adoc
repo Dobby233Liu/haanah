@@ -1,5 +1,7 @@
 == Haanah
 
 dont forget +
-NOTE: Clear the data if it is updated and after open it says "null". +
+
+IMPORTANT: Clear the data if it is updated and after open it says "null". +
+
 TIP: insert "null" or place empty to manauly reset. +
