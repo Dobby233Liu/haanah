@@ -21,6 +21,8 @@ public class MainActivity extends Activity
 		public void onClick(View p1)
 		{
 		final EditText editText = new EditText(MainActivity.this);
+		if(get()!="null"){
+		editText.setText(tv.getText());}
 		AlertDialog.Builder inputDialog = 
         new AlertDialog.Builder(MainActivity.this);
 		inputDialog.setTitle("insert").setView(editText);
