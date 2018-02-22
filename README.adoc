@@ -4,4 +4,4 @@ dont forget +
 
 IMPORTANT: Clear the data if it is updated and after open it says "null". +
 
-TIP: insert "null" or place empty to manauly reset. +
+TIP: insert "null" or place empty and exit to manauly reset. +
