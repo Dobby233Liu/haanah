@@ -30,8 +30,13 @@ public class MainActivity extends Activity
         new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
+			if(editText.getText().toString()!=""){
             commit(editText.getText().toString());
 			tv.setText(get());
+			}else{
+				commit("null");
+				tv.setText(R.string.hello_world);
+			}
 			}
 		}).setNeutralButton("oh reset",new DialogInterface.OnClickListener(){
 
